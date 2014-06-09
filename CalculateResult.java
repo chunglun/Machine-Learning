@@ -28,6 +28,19 @@ public class CalculateResult {
 		List<Integer> result8 = Arrays.asList(0, 485, 8, 1007);
 		List<Integer> result9 = Arrays.asList(0, 491, 9, 1000);
 		
+		/*
+		List<Integer> result0 = Arrays.asList(234, 234, 220, 812);
+		List<Integer> result1 = Arrays.asList(251, 242, 256, 751);
+		List<Integer> result2 = Arrays.asList(252, 226, 227, 795);
+		List<Integer> result3 = Arrays.asList(253, 236, 198, 813);
+		List<Integer> result4 = Arrays.asList(224, 248, 248, 780);
+		List<Integer> result5 = Arrays.asList(249, 202, 217, 832);
+		List<Integer> result6 = Arrays.asList(232, 259, 185, 824);
+		List<Integer> result7 = Arrays.asList(214, 245, 242, 799);
+		List<Integer> result8 = Arrays.asList(217, 268, 224, 791);
+		List<Integer> result9 = Arrays.asList(231, 260, 207, 802);
+		*/
+		
 		Map<Integer, List<Integer>> results = new HashMap<Integer, List<Integer>>();
 		results.put(0, result0);
 		results.put(1, result1);
@@ -103,5 +116,8 @@ public class CalculateResult {
 		}
 		se_accuracy = Math.sqrt(se_accuracy / (NUM_FOLDER - 1));
 		System.out.println("se_accuracy: " + se_accuracy);
+		
+		double f1 = (2 * avg_precision * avg_recall) / (avg_precision + avg_recall);
+		System.out.println("f1: " + f1);
 	}
 }
