@@ -1,0 +1,79 @@
+svm-train.exe -h 0 -v 10 -c 0.5 -g 0.0078125 train.scale
+svm-train.exe -h 0 -v 10 -c 0.5 -g 0.5 train.scale
+svm-train.exe -h 0 -v 10 -c 0.5 -g 0.00012207 train.scale
+svm-train.exe -h 0 -v 10 -c 32 -g 0.5 train.scale
+svm-train.exe -h 0 -v 10 -c 32 -g 0.00012207 train.scale
+svm-train.exe -h 0 -v 10 -c 0.125 -g 0.0078125 train.scale
+svm-train.exe -h 0 -v 10 -c 0.125 -g 0.00012207 train.scale
+svm-train.exe -h 0 -v 10 -c 0.125 -g 0.5 train.scale
+svm-train.exe -h 0 -v 10 -c 0.5 -g 2 train.scale
+svm-train.exe -h 0 -v 10 -c 32 -g 2 train.scale 
+svm-train.exe -h 0 -v 10 -c 0.125 -g 5 train.scale
+svm-train.exe -h 0 -v 10 -c 32 -g 0.00048828 train.scale
+svm-train.exe -h 0 -v 10 -c 0.5 -g 0.00048828 train.scale
+svm-train.exe -h 0 -v 10 -c 0.125 -g 0.00048828 train.scale                                                                          
+svm-train.exe -h 0 -v 10 -c 8 -g 0.0078125 train.scale
+svm-train.exe -h 0 -v 10 -c 8 -g 0.00012207 train.scale
+svm-train.exe -h 0 -v 10 -c 8 -g 0.00048828 train.scale 
+svm-train.exe -h 0 -v 10 -c 8 -g 0.5 train.scale
+svm-train.exe -h 0 -v 10 -c 0.5 -g 0.03125 train.scale
+svm-train.exe -h 0 -v 10 -c 0.125 -g 0.03125 train.scale
+svm-train.exe -h 0 -v 10 -c 8 -g 2 train.scale
+
+                                                                  
+svm-train.exe -h 0 -v 10 -c 32 -g 0.03125 train.scale
+
+svm-train.exe -h 0 -v 10 -c 8 -g 0.03125 train.scale
+
+svm-train.exe -h 0 -v 10 -c 2 -g 0.125 train.scale
+
+
+
+svm-train.exe -h 0 -v 10 -c 2 -g 0.5 train.scale
+svm-train.exe -h 0 -v 10 -c 2 -g 0.00012207 train.scale
+svm-train.exe -h 0 -v 10 -c 2 -g 2 train.scale
+svm-train.exe -h 0 -v 10 -c 2 -g 0.00048828 train.scale
+svm-train.exe -h 0 -v 10 -c 2 -g 0.03125 train.scale
+svm-train.exe -h 0 -v 10 -c 2 -g 0.0000305 train.scale
+svm-train.exe -h 0 -v 10 -c 2 -g 8 train.scale
+svm-train.exe -h 0 -v 10 -c 2 -g 0.001953125 train.scale
+svm-train.exe -h 0 -v 10 -c 0.5 -g 8 train.scale
+svm-train.exe -h 0 -v 10 -c 0.125 -g 8 train.scale
+svm-train.exe -h 0 -v 10 -c 8 -g 8 train.scale
+svm-train.exe -h 0 -v 10 -c 0.03125 -g 8 train.scale
+svm-train.exe -h 0 -v 10 -c 0.5 -g 0.001953125 train.scale
+svm-train.exe -h 0 -v 10 -c 0.5 -g 0.125 train.scale
+svm-train.exe -h 0 -v 10 -c 0.125 -g 0.125 train.scale
+svm-train.exe -h 0 -v 10 -c 8 -g 0.125 train.scale
+svm-train.exe -h 0 -v 10 -c 0.03125 -g 0.125 train.scale
+
+
+
+svm-train.exe -h 0 -v 10 -c 32 -g 8 train.scale
+svm-train.exe -h 0 -v 10 -c 32 -g 0.001953125 train.scale
+svm-train.exe -h 0 -v 10 -c 32 -g 0.125 train.scale
+svm-train.exe -h 0 -v 10 -c 128 -g 0.0078125 train.scale
+svm-train.exe -h 0 -v 10 -c 128 -g 0.5 train.scale
+svm-train.exe -h 0 -v 10 -c 128 -g 0.00012207 train.scale
+svm-train.exe -h 0 -v 10 -c 128 -g 2 train.scale
+svm-train.exe -h 0 -v 10 -c 128 -g 0.00048828 train.scale
+svm-train.exe -h 0 -v 10 -c 128 -g 0.03125 train.scale
+svm-train.exe -h 0 -v 10 -c 128 -g 0.0000305 train.scale
+svm-train.exe -h 0 -v 10 -c 128 -g 8 train.scale 
+svm-train.exe -h 0 -v 10 -c 128 -g 0.125 train.scale
+svm-train.exe -h 0 -v 10 -c 512 -g 0.125 train.scale
+svm-train.exe -h 0 -v 10 -c 512 -g 0.0078125 train.scale
+svm-train.exe -h 0 -v 10 -c 512 -g 0.5 train.scale
+svm-train.exe -h 0 -v 10 -c 512 -g 0.00012207 train.scale
+svm-train.exe -h 0 -v 10 -c 512 -g 2 train.scale
+svm-train.exe -h 0 -v 10 -c 512 -g 0.00048828 train.scale
+svm-train.exe -h 0 -v 10 -c 512 -g 0.03125 train.scale  
+svm-train.exe -h 0 -v 10 -c 512 -g 8 train.scale
+svm-train.exe -h 0 -v 10 -c 2048 -g 0.0078125 train.scale
+svm-train.exe -h 0 -v 10 -c 2048 -g 0.5 train.scale
+svm-train.exe -h 0 -v 10 -c 2048 -g 0.00012207 train.scale
+svm-train.exe -h 0 -v 10 -c 2048 -g 2 train.scale
+svm-train.exe -h 0 -v 10 -c 2048 -g 0.03125 train.scale
+svm-train.exe -h 0 -v 10 -c 2048 -g 0.00048828 train.scale
+svm-train.exe -h 0 -v 10 -c 2048 -g 8 train.scale
+svm-train.exe -h 0 -v 10 -c 32768 -g 0.0078125 train.scale
