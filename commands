@@ -19,17 +19,16 @@ svm-train.exe -h 0 -v 10 -c 8 -g 0.5 train.scale
 svm-train.exe -h 0 -v 10 -c 0.5 -g 0.03125 train.scale
 svm-train.exe -h 0 -v 10 -c 0.125 -g 0.03125 train.scale
 svm-train.exe -h 0 -v 10 -c 8 -g 2 train.scale
-
+svm-train.exe -h 0 -v 10 -c 2 -g 0.125 train.scale
+  
                                                                   
 svm-train.exe -h 0 -v 10 -c 32 -g 0.03125 train.scale
 
 svm-train.exe -h 0 -v 10 -c 8 -g 0.03125 train.scale
 
-svm-train.exe -h 0 -v 10 -c 2 -g 0.125 train.scale
-
-
-
 svm-train.exe -h 0 -v 10 -c 2 -g 0.5 train.scale
+
+
 svm-train.exe -h 0 -v 10 -c 2 -g 0.00012207 train.scale
 svm-train.exe -h 0 -v 10 -c 2 -g 2 train.scale
 svm-train.exe -h 0 -v 10 -c 2 -g 0.00048828 train.scale
